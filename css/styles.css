@@ -11190,7 +11190,7 @@ body {
   border-radius: 100%;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
-}
+} 
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -11210,7 +11210,7 @@ body {
 }
 
 .black_line {
-  margin-left: 16vh;
+  margin-left: 7.8vw; 
   width: 60vh;
   height: 1px;
   background: linear-gradient(to right, white, black, white);
@@ -11255,7 +11255,7 @@ body {
 }
 
 .cv_block {
-  margin-bottom: 10vh;
+  padding-bottom: 30vh;
 }
 
 
@@ -11265,7 +11265,7 @@ body {
 }
 
 .progress_bar {
-  size: 40vh;
+  size: 20vw;
   border: solid black 2px;
   border-radius: 15px;
   height: 5vh;
@@ -11293,4 +11293,10 @@ body {
   white-space: nowrap; /* Assure que le texte ne se brise pas */
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .progress-bar{
+    margin-right: 20vh;
+  }
+  }
+  
 
